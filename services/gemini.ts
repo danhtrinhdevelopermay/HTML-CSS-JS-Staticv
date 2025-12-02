@@ -5,7 +5,7 @@
 import { GoogleGenAI, GenerateContentResponse } from "@google/genai";
 
 // Using gemini-2.5-flash for complex coding tasks.
-const GEMINI_MODEL = 'gemini-2.5-flash';
+const GEMINI_MODEL = 'gemini-3-pro-preview';
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
